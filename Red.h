@@ -33,7 +33,7 @@ public:
 
     void generarRedAleatoria(int numRouters, int conexionesMax);   // Genera una red aleatoria con la cantidad de routers y conexiones máximas
 
-    void configurarRedDesdeArchivo(const std::string& archivo);    // Carga la configuración de la red desde un archivo
+    bool configurarRedDesdeArchivo(const std::string& archivo);    // Carga la configuración de la red desde un archivo
 
     void actualizarTablas();    // Actualiza todas las tablas de enrutamiento de los routers en la red
 
